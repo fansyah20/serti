@@ -10,7 +10,7 @@ export default function QrSertifikat() {
   if (!user) return null;
 
   // QR value = URL publik — ID tidak berubah → QR tidak pernah berubah
-  const qrValue = `${window.location.origin}/sertifikat/${user.id}`;
+  const qrValue = `https://project-b3hek.vercel.app/sertifikat/${id}`;
 
   const handleDownload = () => {
     const svg = document.getElementById("qr-svg-el");
