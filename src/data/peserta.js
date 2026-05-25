@@ -12,7 +12,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 14,
-    username: "Andika Alam Pratama",
+    username: "Andika Alam Pratamaa",
     no_hp: "081400796283",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
     role_id: 2,
