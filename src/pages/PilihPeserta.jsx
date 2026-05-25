@@ -104,7 +104,7 @@ export default function PilihPeserta() {
             return (
               <div
                 key={p.id}
-                onClick={() => navigate(`/user/${p.id}`)}
+                onClick={() => navigate(`/sertifikat/${p.id}`)}
                 style={styles.pesertaCard}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = "translateY(-2px)";
