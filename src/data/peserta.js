@@ -82,7 +82,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 25,
-    username: "Nayla Rachmawati Asy Syifa",
+    username: "Nayla Rachmawati Asy-Syifa",
     no_hp: "065699648354",
     nama_jurusan: "Pengelolaan Logistik Melalui Teknologi Informasi",
     role_id: 2,
