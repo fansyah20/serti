@@ -79,11 +79,9 @@ export default function PilihPeserta() {
 
           {/* Filter chips */}
           <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-            <button onClick={() => setFilterJurusan("semua")} style={chipStyle(filterJurusan === "semua", "#1e293b", "#f1f5f9", "#cbd5e1")}>
-              Semua ({DUMMY_PESERTA.length})
-            </button>
             {jurusanList.map((j) => {
               const c = getColor(j);
+
               const count = DUMMY_PESERTA.filter((p) => p.nama_jurusan === j).length;
               return (
                 <button key={j} onClick={() => setFilterJurusan(j)} style={chipStyle(filterJurusan === j, c.color, c.bg, c.border)}>
