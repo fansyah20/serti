@@ -25,7 +25,7 @@ export default function HalamanUser() {
           <div className="login-icon">
             <i className="bi bi-person-check-fill"></i>
           </div>
-          <h1 className="login-title">DATA KEHADIRAN OJT BBPVP BEKASI</h1>
+          <h1 className="login-title">DATA SERTIFIKAT PESERTA OJT</h1>
           <p className="login-subtitle">PT. GEO MANDIRI KREASI</p>
         </div>
 
