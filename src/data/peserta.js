@@ -60,7 +60,7 @@ export const DUMMY_PESERTA = [
     id: 20,
     username: "Sekar Kumala Dewi",
     no_hp: "085776093450",
-    email: "sakar.kumala@geo-mandiri.id",
+    email: "sekar.kumala@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
     role_id: 2,
   },

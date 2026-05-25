@@ -138,10 +138,10 @@ export default function PublikSertifikat() {
             {/* Tombol Kembali */}
             <button
               className="btn btn-outline-secondary w-100 mt-1"
-              onClick={() => navigate(`/user/${id}`)}
+              onClick={() => navigate(`/`)}
             >
               <i className="bi bi-arrow-left me-2"></i>
-              Kembali ke Halaman Peserta
+              Kembali ke Halaman Utama
             </button>
           </div>
 
@@ -151,9 +151,9 @@ export default function PublikSertifikat() {
             display: "flex", justifyContent: "space-between", alignItems: "center",
           }}>
             
-            <span style={{ fontSize: 10, color: "#94a3b8" }}>
+            {/* <span style={{ fontSize: 10, color: "#94a3b8" }}>
               ID Peserta: <strong style={{ color: "#64748b" }}>{peserta.id}</strong>
-            </span>
+            </span> */}
             <span style={{ fontSize: 10, color: "#94a3b8" }}>PT. GEO MANDIRI KREASI</span>
           </div>
         </div>

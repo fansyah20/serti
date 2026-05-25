@@ -38,7 +38,7 @@ export default function QrSertifikat() {
 
         {/* Top bar */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
-          <button onClick={() => navigate(`/user/${user.id}`)} style={styles.topBtn}>
+          <button onClick={() => navigate(`/sertifikat/${user.id}`)} style={styles.topBtn}>
             <i className="bi bi-arrow-left"></i> Kembali
           </button>
           <div style={styles.topIcon}><i className="bi bi-patch-check-fill" style={{ fontSize: 22, color: "#fff" }}></i></div>
