@@ -97,7 +97,7 @@ export default function PublikSertifikat() {
                 </div>
               </div>
 
-              <div style={styles.infoItem}>
+              {/* <div style={styles.infoItem}>
                 <div style={{ ...styles.infoIcon, background: "#fdf4ff" }}>
                   <i className="bi bi-envelope-fill" style={{ color: "#9333ea", fontSize: 16 }}></i>
                 </div>
@@ -105,7 +105,7 @@ export default function PublikSertifikat() {
                   <div style={styles.infoLabel}>Email</div>
                   <div style={styles.infoValue}>{peserta.email}</div>
                 </div>
-              </div>
+              </div> */}
 
               <div style={styles.infoItem}>
                 <div style={{ ...styles.infoIcon, background: "#fff7ed" }}>
@@ -124,6 +124,25 @@ export default function PublikSertifikat() {
           <div style={{ padding: "0 24px 24px" }}>
             <p style={styles.sectionLabel}>Sertifikat</p>
             <SertifikatCard peserta={peserta} />
+
+            {/* Tombol Lihat QR Sertifikat */}
+            <button
+              className="btn btn-success w-100 mb-2"
+              onClick={() => navigate(`/user/${peserta.id}/sertifikat`)}
+              style={{ fontWeight: 700, marginTop: 16 }}
+            >
+              <i className="bi bi-patch-check-fill me-2"></i>
+              Lihat QR Sertifikat Saya
+            </button>
+
+            {/* Tombol Kembali */}
+            <button
+              className="btn btn-outline-secondary w-100 mt-1"
+              onClick={() => navigate(`/user/${id}`)}
+            >
+              <i className="bi bi-arrow-left me-2"></i>
+              Kembali ke Halaman Peserta
+            </button>
           </div>
 
           {/* Card footer */}
@@ -131,6 +150,7 @@ export default function PublikSertifikat() {
             borderTop: "1px solid #f1f5f9", padding: "12px 24px",
             display: "flex", justifyContent: "space-between", alignItems: "center",
           }}>
+            
             <span style={{ fontSize: 10, color: "#94a3b8" }}>
               ID Peserta: <strong style={{ color: "#64748b" }}>{peserta.id}</strong>
             </span>

@@ -54,13 +54,13 @@ export default function HalamanUser() {
             </div>
           </div>
 
-          <div className="mb-2">
+          {/* <div className="mb-2">
             <label className="form-label fw-semibold">Email</label>
             <div className="input-group">
               <span className="input-group-text"><i className="bi bi-envelope-fill"></i></span>
               <input type="text" className="form-control" value={user.email} disabled readOnly />
             </div>
-          </div>
+          </div> */}
 
           <div className="mb-3">
             <label className="form-label fw-semibold">ID Peserta</label>
