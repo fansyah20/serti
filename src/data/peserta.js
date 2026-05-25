@@ -15,15 +15,13 @@ export const DUMMY_PESERTA = [
     id: 14,
     username: "Andika Alam Pratama",
     no_hp: "081400796283",
-    email: "andika.alam@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
     role_id: 2,
   },
   {
     id: 15,
-    username: "Dhimas Agang Prasetyo",
+    username: "Dhimas Ageng Prasetyo",
     no_hp: "085692242695",
-    email: "dhimas.agang@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
     role_id: 2,
   },
@@ -31,7 +29,6 @@ export const DUMMY_PESERTA = [
     id: 16,
     username: "Ken Ichita Farrel Arysastya",
     no_hp: "087776834436",
-    email: "ken.ichita@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
     role_id: 2,
   },
@@ -45,7 +42,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 18,
-    username: "Daistonyo Prabu Arara",
+    username: "Daitoryo Prabu Arena",
     no_hp: "089864706207",
     email: "daistonyo.prabu@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
@@ -53,7 +50,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 19,
-    username: "Muhamad Rasya Arkarisa",
+    username: "Muhamad Rassya Arkarisa",
     no_hp: "085333858350",
     email: "rasya.arkarisa@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
@@ -61,7 +58,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 20,
-    username: "Sakat Kumara Dawi",
+    username: "Sekar Kumara Dewi",
     no_hp: "085776093460",
     email: "sakat.kumara@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
@@ -77,7 +74,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 22,
-    username: "Pajek Muhamad Super",
+    username: "Pajar Muhamad Super",
     no_hp: "087776905421",
     email: "pajek.muhamad@geo-mandiri.id",
     nama_jurusan: "Pengelolaan Logistik Melalui Teknologi Informasi",
@@ -93,7 +90,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 25,
-    username: "Nayla Rachmawati Asy Syifa",
+    username: "Nayla Rachmawati Asy-Syifa",
     no_hp: "065699648354",
     email: "nayla.rachmawati@geo-mandiri.id",
     nama_jurusan: "Pengelolaan Logistik Melalui Teknologi Informasi",
@@ -173,7 +170,7 @@ export const DUMMY_PESERTA = [
   },
   {
     id: 36,
-    username: "Adaila Nazwa Eka Putri",
+    username: "Adelia Nazwa Eka Putri",
     no_hp: "085778643807",
     email: "adaila.nazwa@geo-mandiri.id",
     nama_jurusan: "Pengembangan web dengan node JS dan react JS",
